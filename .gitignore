@@ -1,0 +1,34 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Logs ###
+*.log
+*.tmp
+
+### Build ###
+/build/
+/target/
+.gradle/
+
+### Docker ###
+.env
+postgres_data/
+
+### IDEs ###
+*.iml
+.idea/
+.vscode/
+out/
+bin/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Project-specific ###
+HELP.md
+devtracker.iml
+/docker-compose.override.yml
