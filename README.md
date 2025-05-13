@@ -1,40 +1,40 @@
 # DevTrack 🧠📺
 
-**DevTrack** הוא יישום לניהול למידה עצמית למתכנתים מתחילים וללומדים עצמאיים, שמרגישים מבולבלים מול אינסוף התוכן שיש ביוטיוב וברשת.  
-המטרה: לעזור למשתמשים לבנות מסלול למידה (Roadmap) מסודר לפי תחום יעד, לעקוב אחר התקדמות, ולשמור הערות וסרטונים חשובים במקום אחד.
+**DevTrack** is a self-learning management app built for beginner developers and self-taught learners who feel overwhelmed by the endless content on YouTube and across the web.  
+Its goal is to help users build a structured learning roadmap based on their target role, track their progress, and keep all their important videos, notes, and tasks in one organized place.
 
 ---
 
-## ✨ פיצ'רים עיקריים
+## ✨ Key Features
 
-- 🔐 **אבטחת משתמשים:** הרשמה, התחברות וניהול משתמשים עם JWT + Spring Security  
-- 🗺️ **Roadmaps מותאמים אישית:** המשתמש יוצר מסלול למידה אישי (למשל: Backend Developer)
-- 🎥 **מודולים עם סרטוני YouTube:** כל מודול כולל שם, תיאור, סרטון לימודי איכותי והערות של המשתמש
-- ✅ **מעקב אחרי צפייה ומשימות:** סימון כצפוי, כתיבת הערות, יצירת משימות ויעדים לכל נושא
-- 🛠️ **ממשק API מלא:** RESTful API, תיעוד עם Swagger
-
----
-
-## 🧰 טכנולוגיות בשימוש
-
-| שכבה       | טכנולוגיה                   |
-|------------|------------------------------|
-| שפת תכנות | Java 21                      |
-| Framework  | Spring Boot                  |
-| אבטחה      | Spring Security + JWT        |
-| ORM        | Spring Data JPA (Hibernate)  |
-| DB         | PostgreSQL                   |
-| ניהול פרויקט | Gradle                      |
-| תיעוד API | Swagger (OpenAPI)             |
-
-| DevOps     | Docker + docker-compose      |
+- 🔐 **User Authentication:** Sign up, login, and access management using JWT and Spring Security  
+- 🗺️ **Custom Learning Roadmaps:** Users can create a personalized roadmap (e.g., *Backend Developer*)  
+- 🎥 **Modules with YouTube Videos:** Each module includes a title, description, curated video, and user notes  
+- ✅ **Progress Tracking & Tasks:** Mark modules as watched, add personal notes, and create tasks per module  
+- 🛠️ **Full REST API:** Complete RESTful API with integrated Swagger documentation
 
 ---
 
-## 🧪 איך להריץ את הפרויקט
+## 🧰 Tech Stack
 
-1. ודא שיש לך Java 21 + Gradle מותקן  
-2. הגדר קובץ `application.properties` עם פרטי חיבור ל־PostgreSQL
-3. הרץ את הפרויקט:
+| Layer         | Technology                    |
+|---------------|-------------------------------|
+| Programming   | Java 21                        |
+| Framework     | Spring Boot                    |
+| Security      | Spring Security + JWT          |
+| ORM           | Spring Data JPA (Hibernate)    |
+| Database      | PostgreSQL                     |
+| Build Tool    | Gradle                         |
+| API Docs      | Swagger (OpenAPI)              |
+| DevOps        | Docker + docker-compose        |
+
+---
+
+## 🧪 How to Run the Project
+
+1. Make sure you have **Java 21** and **Gradle** installed  
+2. Set up your `application.properties` with PostgreSQL connection details  
+3. Run the application:
+
 ```bash
 ./gradlew bootRun
